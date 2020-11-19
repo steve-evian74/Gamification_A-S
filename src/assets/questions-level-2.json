@@ -22,7 +22,7 @@
           "text": "Mercure / Mars / Terre / Vénus"
         }
       ],
-      "correctIndex": 1
+      "correctIndex": 0
     },
     {
       "id": 2,
@@ -45,7 +45,7 @@
           "text": "Saturne / Jupiter / Uranus / Neptune"
         }
       ],
-      "correctIndex": 1
+      "correctIndex": 0
     },
     {
       "id": 3,
@@ -68,7 +68,7 @@
           "text": "Dans des milliers d'années"
         }
       ],
-      "correctIndex": 3
+      "correctIndex": 2
     },
     {
       "id": 4,
@@ -91,7 +91,7 @@
           "text": "Très petite"
         }
       ],
-      "correctIndex": [2,3]
+      "correctIndex": [0,1]
     },
     {
       "id": 5,
@@ -114,7 +114,7 @@
           "text": "La distance entre les 2 bouts de notre galaxie"
         }
       ],
-      "correctIndex": 2
+      "correctIndex": 1
     }
   ]
 }
