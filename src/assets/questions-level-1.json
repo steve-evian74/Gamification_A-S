@@ -45,7 +45,7 @@
           "text": "est une des étoiles de notre systéme solaire"
         }
       ],
-      "correctIndex": 2
+      "correctIndex": 1
     },
     {
       "id": 3,
@@ -68,7 +68,7 @@
           "text": "l'Univers"
         }
       ],
-      "correctIndex": 1
+      "correctIndex": 0
     },
     {
       "id": 4,
@@ -91,7 +91,7 @@
           "text": "Jupiter"
         }
       ],
-      "correctIndex": 3
+      "correctIndex": 0
     },
     {
       "id": 5,
@@ -114,7 +114,7 @@
           "text": "150 milliards de km"
         }
       ],
-      "correctIndex": 3
+      "correctIndex": 2
     }
   ]
 }
