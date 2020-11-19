@@ -1,0 +1,30 @@
+<mat-card>
+  <mat-card-header>
+    <mat-card-title>Votre score: {{score}}/5</mat-card-title>
+  </mat-card-header>
+
+  <mat-card-content *ngIf="score >= 3 && level != 3">
+    <p>Félicitations, vous avez débloqué le niveau suivant !</p>
+    <p>Un nouveau badge vous est attribué !</p>
+    <img *ngIf="level == 1" class="avatar" src="http://localhost:4200/assets/bronze.png" width="32" alt="avatar" />
+    <img *ngIf="level == 2" class="avatar" src="http://localhost:4200/assets/silver.png" width="32" alt="avatar" />
+    <mat-card-actions>
+      <button mat-raised-button color="primary" (click)="redirect('next')">Niveau suivant</button>
+    </mat-card-actions>
+  </mat-card-content>
+
+  <mat-card-content *ngIf="score >= 3 && level == 3">
+    <p>Félicitations, vous avez terminé le jeu ! Bravo !</p>
+    <p>Le badge final vous est attribué !</p>
+    <img class="avatar" src="http://localhost:4200/assets/gold.png" width="32" alt="avatar" />
+  </mat-card-content>
+
+
+  <mat-card-content *ngIf="3 > score">
+    <p>Dommage ! Réessayez pour débloquer le niveau suivant !</p>
+    <mat-card-actions>
+      <button mat-raised-button color="primary" (click)="redirect('retry')">Recommencer</button>
+    </mat-card-actions>
+  </mat-card-content>
+
+</mat-card>

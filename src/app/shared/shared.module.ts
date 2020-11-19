@@ -2,7 +2,13 @@ import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { MaterialModule } from '../material';
+import { HeaderComponent, FooterComponent } from '../components';
 
+
+export const COMPONENTS = [
+  HeaderComponent,
+  FooterComponent,
+];
 @NgModule({
   imports: [
     CommonModule,
@@ -10,11 +16,14 @@ import { MaterialModule } from '../material';
     MaterialModule
   ],
   exports: [
+    COMPONENTS,
     CommonModule,
     MaterialModule,
     FlexLayoutModule
   ],
-  providers: []
+  declarations: [
+    COMPONENTS
+  ]
 })
 
 export class SharedModule {}

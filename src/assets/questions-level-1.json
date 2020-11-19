@@ -1,0 +1,120 @@
+{
+  "id": 0,
+  "questions": [
+    {
+      "id": 1,
+      "text": "Dans le vide, la célérité de la lumière est de l'ordre de :",
+      "answers": [
+        {
+          "Index": 0,
+          "text": "300 000 km/s"
+        },
+        {
+          "Index": 1,
+          "text": "300 000 m/s"
+        },
+        {
+          "Index": 2,
+          "text": "300 000 km/h"
+        },
+        {
+          "Index": 3,
+          "text": "300 000 m/h"
+        }
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 2,
+      "text": "Le soleil est :",
+      "answers": [
+        {
+          "Index": 0,
+          "text": "un astre qui tourne autour des planétes en effectuant une révolution"
+        },
+        {
+          "Index": 1,
+          "text": "est la seule étoile de notre systéme solaire"
+        },
+        {
+          "Index": 2,
+          "text": "est la seule étoile de notre galaxie"
+        },
+        {
+          "Index": 3,
+          "text": "est une des étoiles de notre systéme solaire"
+        }
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 3,
+      "text": "Le soleil et l'ensemble des objets autour de lui constituent :",
+      "answers": [
+        {
+          "Index": 0,
+          "text": "le systéme solaire"
+        },
+        {
+          "Index": 1,
+          "text": "la galaxie"
+        },
+        {
+          "Index": 2,
+          "text": "la Voie lactée"
+        },
+        {
+          "Index": 3,
+          "text": "l'Univers"
+        }
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 4,
+      "text": "Quel est l'astre le plus proche de la Terre ?",
+      "answers": [
+        {
+          "Index": 0,
+          "text": "le soleil"
+        },
+        {
+          "Index": 1,
+          "text": "Proxima du centaure"
+        },
+        {
+          "Index": 2,
+          "text": "Mars"
+        },
+        {
+          "Index": 3,
+          "text": "Jupiter"
+        }
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 5,
+      "text": "La distance Terre-Soleil est donnée sur l'image ci contre. Cela correspond à :",
+      "answers": [
+        {
+          "Index": 0,
+          "text": "150 milliers de km"
+        },
+        {
+          "Index": 1,
+          "text": "15 millions de km"
+        },
+        {
+          "Index": 2,
+          "text": "150 millions de km"
+        },
+        {
+          "Index": 3,
+          "text": "150 milliards de km"
+        }
+      ],
+      "correctIndex": 3
+    }
+  ]
+}

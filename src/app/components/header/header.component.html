@@ -1,0 +1,17 @@
+<mat-toolbar role="heading" class="nav-header" color="primary">
+<!--
+  <button mat-icon-button routerLink="home">
+    <mat-icon>home</mat-icon>
+  </button>
+-->
+  <img *ngIf="level == 2" class="avatar" src="http://localhost:4200/assets/bronze.png" width="32" alt="avatar" />
+  <img *ngIf="level == 3" class="avatar" src="http://localhost:4200/assets/silver.png" width="32" alt="avatar" />
+  <img *ngIf="level == 4" class="avatar" src="http://localhost:4200/assets/gold.png" width="32" alt="avatar" />
+
+  <span fxFlex></span>
+
+  <p>Niveau {{level}} </p>
+
+
+
+</mat-toolbar>

@@ -14,7 +14,7 @@ export function logger(reducer: ActionReducer<State>): ActionReducer<State> {
     console.log('action', action);
     console.log('next state', result);
     console.groupEnd();
-    
+
     return result;
   };
 }

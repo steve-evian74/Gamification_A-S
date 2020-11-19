@@ -1,0 +1,108 @@
+{
+  "id": 0,
+  "questions": [
+    {
+      "id": 1,
+      "text": "L'unité astronomique :",
+      "answers": [
+        {
+          "Index": 0,
+          "text": "A pour symbole u.a"
+        },
+        {
+          "Index": 1,
+          "text": "Correspond à la distance moyenne Terre-Soleil"
+        },
+        {
+          "Index": 2,
+          "text": "Correspond à la distance moyenne Terre-Lune"
+        },
+        {
+          "Index": 3,
+          "text": "A pour symbole a.l"
+        }
+      ],
+      "correctIndex": [1,2]
+    },
+    {
+      "id": 2,
+      "text": "La distance Soleil-Neptune est égale à 4500 milliards de mètres",
+      "answers": [
+        {
+          "Index": 0,
+          "text": "Cette distance est égale à 4,5 milliards de km"
+        },
+        {
+          "Index": 1,
+          "text": "Cette distance est égale à 4,5 a.l"
+        },
+        {
+          "Index": 2,
+          "text": "Pour atteindre Neptune, la lumière du Soleil met 4,5 années"
+        },
+        {
+          "Index": 3,
+          "text": "Pour atteindre Neptune, la lumière du Soleil met 15000 s soit 4h et 10 min"
+        }
+      ],
+      "correctIndex": [1,4]
+    },
+    {
+      "id": 3,
+      "text": "Certaines étoiles ont explosé il y a des millions d'années et pourtant on peut toujours les voir briller la nuit",
+      "answers": [
+        {
+          "Index": 0,
+          "text": "Vrai"
+        },
+        {
+          "Index": 1,
+          "text": "Faux"
+        }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 4,
+      "text": "Quelle est la plus grande mesure ?",
+      "answers": [
+        {
+          "Index": 0,
+          "text": "10²m"
+        },
+        {
+          "Index": 1,
+          "text": "0 puissance 3 m"
+        },
+        {
+          "Index": 2,
+          "text": "10 puissance 4 m"
+        }
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 5,
+      "text": "Quel est le calcul juste ?",
+      "answers": [
+        {
+          "Index": 0,
+          "text": "10^3 + 10^4 = 10^7"
+        },
+        {
+          "Index": 1,
+          "text": "10^3 * 10^4 = 10^7"
+        },
+        {
+          "Index": 2,
+          "text": "10^3 + 10^4 = 10^12"
+        },
+        {
+          "Index": 3,
+          "text": "10^3 * 10^4 = 10^12"
+        }
+      ],
+      "correctIndex": 2
+    }
+  ]
+}

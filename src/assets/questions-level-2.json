@@ -1,0 +1,120 @@
+{
+  "id": 0,
+  "questions": [
+    {
+      "id": 1,
+      "text": "Les planétes les plus proches du Soleil sont dans l'ordre, en partant du Soleil :",
+      "answers": [
+        {
+          "Index": 0,
+          "text": "Mercure / Vénus / Terre / Mars"
+        },
+        {
+          "Index": 1,
+          "text": "Mercure / Terre / Vénus / Mars"
+        },
+        {
+          "Index": 2,
+          "text": "Mercure / Vénus / Mars / Terre"
+        },
+        {
+          "Index": 3,
+          "text": "Mercure / Mars / Terre / Vénus"
+        }
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 2,
+      "text": "Les planétes les plus éloignées du soleil sont dans l'ordre, en partant du soleil :",
+      "answers": [
+        {
+          "Index": 0,
+          "text": "Jupiter / Saturne / Uranus / Neptune"
+        },
+        {
+          "Index": 1,
+          "text": "Jupiter / Saturne / Neptune / Uranus"
+        },
+        {
+          "Index": 2,
+          "text": "Jupiter / Uranus / Saturne / Neptune"
+        },
+        {
+          "Index": 3,
+          "text": "Saturne / Jupiter / Uranus / Neptune"
+        }
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 3,
+      "text": "Si une étoile situé à 150 a.l. de nous explosait aujourd'hui, nous le saurions :",
+      "answers": [
+        {
+          "Index": 0,
+          "text": "Aujourd'hui"
+        },
+        {
+          "Index": 1,
+          "text": "Demain"
+        },
+        {
+          "Index": 2,
+          "text": "Dans 150 ans"
+        },
+        {
+          "Index": 3,
+          "text": "Dans des milliers d'années"
+        }
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 4,
+      "text": "L'année lumière est une unité :",
+      "answers": [
+        {
+          "Index": 0,
+          "text": "De temps"
+        },
+        {
+          "Index": 1,
+          "text": "De longueur"
+        },
+        {
+          "Index": 2,
+          "text": "Très grande"
+        },
+        {
+          "Index": 3,
+          "text": "Très petite"
+        }
+      ],
+      "correctIndex": [2,3]
+    },
+    {
+      "id": 5,
+      "text": "l'année lumière est :",
+      "answers": [
+        {
+          "Index": 0,
+          "text": "La distance moyenne Terre-Soleil"
+        },
+        {
+          "Index": 1,
+          "text": "Lla distance parcourue par la lumière dans le vide pendant une année"
+        },
+        {
+          "Index": 2,
+          "text": "La distance entre la Terre et l'etoile la plus proche, Proxima du Centaure"
+        },
+        {
+          "Index": 3,
+          "text": "La distance entre les 2 bouts de notre galaxie"
+        }
+      ],
+      "correctIndex": 2
+    }
+  ]
+}

@@ -7,12 +7,11 @@ import { StoreDevtoolsModule } from '@ngrx/store-devtools';
 import { environment } from 'src/environments/environment';
 import { StoreModule } from '@ngrx/store';
 import { EffectsModule } from '@ngrx/effects';
-import { QuizzService } from './quizz/services';
-import { QuizzEffects } from './quizz/effects';
 import { QuizzModule } from './quizz/quizz.module';
 import { MaterialModule } from './material';
 import { metaReducers } from './reducers';
 import { HttpClientModule } from '@angular/common/http';
+import { SharedModule } from './shared/shared.module';
 
 
 
@@ -27,6 +26,7 @@ export const COMPONENTS = [
   imports: [
     MaterialModule,
     BrowserModule,
+    SharedModule,
     QuizzModule,
     AppRoutingModule,
     HttpClientModule,
